@@ -1,0 +1,51 @@
+﻿Build started 2015/3/6 17:00:30.
+     1>Project "E:\MyVtkExams\cone1\cone1\cone1.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "E:\MyVtkExams\cone1\x64\Debug\".
+       InitializeBuildStatus:
+         Creating "x64\Debug\cone1.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt cone1.cpp
+         cone1.cpp
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\MyVtkExams\cone1\x64\Debug\cone1.exe" /NOLOGO vtkCommon.lib vtkFiltering.lib vtkGraphics.lib vtkRendering.lib vtkDICOMParser.lib vtkVolumeRendering.lib vtksys.lib vtkIO.lib vtkImaging.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\cone1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\MyVtkExams\cone1\x64\Debug\cone1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\MyVtkExams\cone1\x64\Debug\cone1.lib" /MACHINE:X64 x64\Debug\cone1.obj
+     1>cone1.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl vtkRenderer::ResetCameraClippingRange(void)" (__imp_?ResetCameraClippingRange@vtkRenderer@@QEAAXXZ) referenced in function main
+     1>cone1.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl vtkCamera::Dolly(double)" (__imp_?Dolly@vtkCamera@@QEAAXN@Z) referenced in function main
+     1>cone1.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl vtkRenderer::ResetCamera(void)" (__imp_?ResetCamera@vtkRenderer@@QEAAXXZ) referenced in function main
+     1>cone1.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl vtkRenderer::SetActiveCamera(class vtkCamera *)" (__imp_?SetActiveCamera@vtkRenderer@@QEAAXPEAVvtkCamera@@@Z) referenced in function main
+     1>cone1.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl vtkRenderer::AddActor(class vtkProp *)" (__imp_?AddActor@vtkRenderer@@QEAAXPEAVvtkProp@@@Z) referenced in function main
+     1>cone1.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl vtkCamera::ComputeViewPlaneNormal(void)" (__imp_?ComputeViewPlaneNormal@vtkCamera@@QEAAXXZ) referenced in function main
+     1>cone1.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl vtkCamera::SetFocalPoint(double,double,double)" (__imp_?SetFocalPoint@vtkCamera@@QEAAXNNN@Z) referenced in function main
+     1>cone1.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl vtkCamera::SetPosition(double,double,double)" (__imp_?SetPosition@vtkCamera@@QEAAXNNN@Z) referenced in function main
+     1>cone1.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl vtkCamera::SetViewUp(double,double,double)" (__imp_?SetViewUp@vtkCamera@@QEAAXNNN@Z) referenced in function main
+     1>cone1.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static class vtkCamera * __cdecl vtkCamera::New(void)" (__imp_?New@vtkCamera@@SAPEAV1@XZ) referenced in function main
+     1>cone1.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: class vtkProperty * __cdecl vtkActor::GetProperty(void)" (__imp_?GetProperty@vtkActor@@QEAAPEAVvtkProperty@@XZ) referenced in function main
+     1>cone1.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static class vtkActor * __cdecl vtkActor::New(void)" (__imp_?New@vtkActor@@SAPEAV1@XZ) referenced in function main
+     1>cone1.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl vtkPolyDataMapper::SetInput(class vtkPolyData *)" (__imp_?SetInput@vtkPolyDataMapper@@QEAAXPEAVvtkPolyData@@@Z) referenced in function main
+     1>cone1.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static class vtkPolyDataMapper * __cdecl vtkPolyDataMapper::New(void)" (__imp_?New@vtkPolyDataMapper@@SAPEAV1@XZ) referenced in function main
+     1>cone1.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static class vtkStripper * __cdecl vtkStripper::New(void)" (__imp_?New@vtkStripper@@SAPEAV1@XZ) referenced in function main
+     1>cone1.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl vtkPolyDataAlgorithm::SetInput(class vtkDataObject *)" (__imp_?SetInput@vtkPolyDataAlgorithm@@QEAAXPEAVvtkDataObject@@@Z) referenced in function main
+     1>cone1.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: class vtkPolyData * __cdecl vtkPolyDataAlgorithm::GetOutput(void)" (__imp_?GetOutput@vtkPolyDataAlgorithm@@QEAAPEAVvtkPolyData@@XZ) referenced in function main
+     1>cone1.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static class vtkFeatureEdges * __cdecl vtkFeatureEdges::New(void)" (__imp_?New@vtkFeatureEdges@@SAPEAV1@XZ) referenced in function main
+     1>cone1.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static class vtkPolyDataNormals * __cdecl vtkPolyDataNormals::New(void)" (__imp_?New@vtkPolyDataNormals@@SAPEAV1@XZ) referenced in function main
+     1>cone1.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static class vtkSmoothPolyDataFilter * __cdecl vtkSmoothPolyDataFilter::New(void)" (__imp_?New@vtkSmoothPolyDataFilter@@SAPEAV1@XZ) referenced in function main
+     1>cone1.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static class vtkDecimatePro * __cdecl vtkDecimatePro::New(void)" (__imp_?New@vtkDecimatePro@@SAPEAV1@XZ) referenced in function main
+     1>cone1.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl vtkMarchingCubes::SetValue(int,double)" (__imp_?SetValue@vtkMarchingCubes@@QEAAXHN@Z) referenced in function main
+     1>cone1.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: class vtkAlgorithmOutput * __cdecl vtkAlgorithm::GetOutputPort(void)" (__imp_?GetOutputPort@vtkAlgorithm@@QEAAPEAVvtkAlgorithmOutput@@XZ) referenced in function main
+     1>cone1.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static class vtkMarchingCubes * __cdecl vtkMarchingCubes::New(void)" (__imp_?New@vtkMarchingCubes@@SAPEAV1@XZ) referenced in function main
+     1>cone1.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl vtkImageAlgorithm::SetInput(class vtkDataObject *)" (__imp_?SetInput@vtkImageAlgorithm@@QEAAXPEAVvtkDataObject@@@Z) referenced in function main
+     1>cone1.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static class vtkImageShrink3D * __cdecl vtkImageShrink3D::New(void)" (__imp_?New@vtkImageShrink3D@@SAPEAV1@XZ) referenced in function main
+     1>cone1.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: class vtkImageData * __cdecl vtkImageAlgorithm::GetOutput(void)" (__imp_?GetOutput@vtkImageAlgorithm@@QEAAPEAVvtkImageData@@XZ) referenced in function main
+     1>cone1.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static class vtkImageData * __cdecl vtkImageData::New(void)" (__imp_?New@vtkImageData@@SAPEAV1@XZ) referenced in function main
+     1>cone1.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl vtkDICOMImageReader::SetDirectoryName(char const *)" (__imp_?SetDirectoryName@vtkDICOMImageReader@@QEAAXPEBD@Z) referenced in function main
+     1>cone1.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static class vtkDICOMImageReader * __cdecl vtkDICOMImageReader::New(void)" (__imp_?New@vtkDICOMImageReader@@SAPEAV1@XZ) referenced in function main
+     1>cone1.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl vtkRenderWindowInteractor::SetRenderWindow(class vtkRenderWindow *)" (__imp_?SetRenderWindow@vtkRenderWindowInteractor@@QEAAXPEAVvtkRenderWindow@@@Z) referenced in function main
+     1>cone1.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static class vtkRenderWindowInteractor * __cdecl vtkRenderWindowInteractor::New(void)" (__imp_?New@vtkRenderWindowInteractor@@SAPEAV1@XZ) referenced in function main
+     1>cone1.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static class vtkRenderWindow * __cdecl vtkRenderWindow::New(void)" (__imp_?New@vtkRenderWindow@@SAPEAV1@XZ) referenced in function main
+     1>cone1.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static class vtkRenderer * __cdecl vtkRenderer::New(void)" (__imp_?New@vtkRenderer@@SAPEAV1@XZ) referenced in function main
+     1>E:\MyVtkExams\cone1\x64\Debug\cone1.exe : fatal error LNK1120: 34 unresolved externals
+     1>Done Building Project "E:\MyVtkExams\cone1\cone1\cone1.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.31
